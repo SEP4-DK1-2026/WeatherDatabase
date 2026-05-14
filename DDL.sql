@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS "Weather"(
     wind_direction INT,
     wind_speed FLOAT,
     precipitation FLOAT,
-    light INT,
+    light FLOAT,
     PRIMARY KEY (time)
 );
 
