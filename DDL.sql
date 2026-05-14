@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS "WeatherPrediction"(
     wind_direction INT,
     wind_speed FLOAT,
     precipitation FLOAT,
-    light INT,
+    light FLOAT,
     model_name VARCHAR(3) NOT NULL,
     model_major_version INT NOT NULL,
     model_minor_version INT NOT NULL,
